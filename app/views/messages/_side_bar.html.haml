@@ -1,0 +1,21 @@
+
+.Chat-side
+  .Chat-side__user
+    .Chat-side__user__top-items
+      .Chat-side__user__top-items__name
+        %p takumi
+      %ul.Chat-side__user__top-items__icons
+        %li
+          =link_to "#", class: "Chat-side__user__top-items__icons__edit" do
+            =icon('far', 'edit')
+        %li
+          =link_to "#", class: "Chat-side__user__top-items__icons__cog" do
+            =icon('fas', 'cog')
+  .Chat-side__groups
+    =link_to "#", class:"Chat-side__groups__block" do
+      %p.Chat-side__groups__block__name techcamp
+      %p.Chat-side__groups__block--message まだメッセージがありません
+    =link_to "#", class:"Chat-side__groups__block" do
+      %p.Chat-side__groups__block__name techcamp
+      %p.Chat-side__groups__block--message まだメッセージがありません
+    
