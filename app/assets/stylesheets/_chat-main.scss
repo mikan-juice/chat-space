@@ -21,6 +21,7 @@ $blue: #38aef0;
         padding-top: 15px;
         color: #999999;
         font-size: 12px;
+        display: flex;
       }
     }
     &__btn {
@@ -40,6 +41,7 @@ $blue: #38aef0;
   }
   &__messages {
     height: calc(100vh - 100px - 90px);
+    box-sizing: border-box;
     background-color: #fafafa;
     &__comment {
       padding-top: 35px;
@@ -58,9 +60,14 @@ $blue: #38aef0;
         }
       }
       &__text {
+        &__content {
         font-size: 14px;
         color: #434a54;
         margin: 12px 0 46px 0;
+        }
+      &__image {
+        height: 300px;
+      }
       }
     }
   }
