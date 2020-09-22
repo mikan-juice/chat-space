@@ -46,9 +46,9 @@ class ImageUploader < CarrierWave::Uploader::Base
   #   "something.jpg" if original_filename
   # end
 
-  # def default_url
-  #   'board_placeholder.png'
-  # end
+  def default_url
+    'board_placeholder.png'
+  end
 
   process resize_to_fit: [800, 800]
 
