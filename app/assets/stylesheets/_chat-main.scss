@@ -43,6 +43,7 @@ $blue: #38aef0;
     height: calc(100vh - 100px - 90px);
     box-sizing: border-box;
     background-color: #fafafa;
+    overflow: scroll;
     &__comment {
       padding-top: 35px;
       margin-left: 40px;

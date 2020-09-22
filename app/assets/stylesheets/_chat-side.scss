@@ -37,6 +37,7 @@ $section-color: #ffffff;
   &__groups {
     height: calc(100vh - 100px);
     background-color: #2f3e51;
+    overflow: scroll;
     &__block {
       text-decoration: none;
       padding-left: 20px;
