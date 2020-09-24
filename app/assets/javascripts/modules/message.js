@@ -16,7 +16,7 @@ $(function() {
               ${message.content}
             </p>
           </div>
-            <img src="${message.image}">
+            <img class="Chat-main__messages__comment__text__image" src="${message.image}">
         </div>`
       return html;
     } else {
